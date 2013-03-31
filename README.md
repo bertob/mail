@@ -1,8 +1,8 @@
-Rethinking the email experience
+# Rethinking the email experience
 -------------------------------
 I want a better email interface. So I'm designing one.
 
-# Accounts column
+## Accounts Column
 
 * **Conversations** combines the following views:
 	* Inbox
@@ -14,7 +14,7 @@ I want a better email interface. So I'm designing one.
 
 * **Trash** also contains spam emails. New emails that have been flagged as spam appear on top, in a separate section similar to the "New" section in "Conversations". Thus, emails that have been accidentally flagged as spam, can be discovered and unflagged easily.
 
-# Conversation List
+## Conversation List
 
 Conversations are organized in 2 sections that are arranged vertically:
 * **Active Conversations**:
@@ -27,13 +27,15 @@ Conversations are organized in 2 sections that are arranged vertically:
 Notes:
 * Messages in the **Active** category can be reordered by dragging, so it can be used as a to-do list. Thus, no priority system is required.
 * When a message is opened it is not automatically marked as read. The user has to drag it into **History** to remove it from the to-do list.
+* The person who wrote the most recent message in a thread is visually highlighted in the List.
+* Unread messages appear at the top ot the **Active** column.
 
 
-# Single conversation
+## Single Conversation
 
 
 
-# Compose view
+## Compose View
 
 * No formatting via UI. Markdown is supported, though generally formatting is not recommended.
 * Attachments can be added by dragging and dropping files on the compose view.
