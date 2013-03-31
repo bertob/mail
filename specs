@@ -1,0 +1,27 @@
+
+* "Conversations" combines the following views:
+	* Inbox
+	* Sent
+	* Drafts
+	* All messages
+
+  Conversations has 3 sections that are arranged vertically:
+  	* Current Conversations
+  		Drafts for new messages and conversations with open response drafts 
+  	* New Conversations
+  		All conversations with unread messages that have no drafts in them
+  	* History
+  		All other conversations (even if they only contain sent messages with no response)
+  
+  Notes:
+  	* Messages in the "Current" and "New" categories can be reordered by dragging, so they can be used as a to-do list. Thus, no priority system is required.
+  	* 
+  	
+* "Starred" behaves as expected.
+
+* "Trash" also contains spam emails. New emails that have been flagged as spam appear on top, in a separate section similar to the "New" section in "Conversations". Thus, emails that have been accidentally flagged as spam, can be discovered and unflagged easily.
+
+
+///////// COMPOSE VIEW
+
+* No formatting via UI. Markdown is supported, though generally formatting is not recommended.
