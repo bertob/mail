@@ -22,7 +22,7 @@ Conversations are organized in 2 sections that are arranged vertically:
 	* Drafts for new messages
 	* Conversations with open response drafts
 * **History**:
-		* All other conversations (even if they only contain sent messages with no response)
+	* All other conversations (even if they only contain sent messages with no response)
 
 Notes:
 * Messages in the **Active** category can be reordered by dragging, so it can be used as a to-do list. Thus, no priority system is required.
