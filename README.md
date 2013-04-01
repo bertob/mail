@@ -9,9 +9,7 @@ I want a better email interface. So I'm designing one.
 	* Sent
 	* Drafts
 	* All messages
-  	
 * **Starred** behaves as expected.
-
 * **Trash** also contains spam emails. New emails that have been flagged as spam appear on top, in a separate section similar to the "New" section in "Conversations". Thus, emails that have been accidentally flagged as spam, can be discovered and unflagged easily.
 
 ## Conversation List
@@ -33,9 +31,17 @@ Notes:
 
 ## Single Conversation
 
-
+* Behaves similarly to the Gmail web interface
+* Only the most important information about a message is shown:
+	* Sender's name
+	* Recipient(s)' name
+	* Time OR date and how many days ago that was (for messages older than a day)
+	* Message
+* More detailed information is available from the "more" triangle menu next to the recipient's name
+* All actions on a single message are available via a top right menu on every message
+* In threads with many message, older messages in the thread are automatically collapsed and can be uncollapsed (like in Gmail)
 
 ## Compose View
 
-* No formatting via UI. Markdown is supported, though generally formatting is not recommended.
+* No formatting via UI. Formatting is via Markdown, but it is generally not recommended.
 * Attachments can be added by dragging and dropping files on the compose view.
