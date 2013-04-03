@@ -8,6 +8,7 @@ Problems in current implementations:
 * When emails are organized in conversations, the name __Inbox__ is not entirely correct, because this folder contains emails from other people as well as the user's replies to these emails.
 * Similarly, separating __Inbox__ and __Sent__ does not make a lot of sense because the inbox also contains messages from the user. At that point, wouldn't it be simpler to just have one folder with all these messages?
 * I never really understood what the __Drafts__ folder is for. Mine is almost always empty, except for the rare occasions when I start writing a message one day and finish it the next day. Is it really necessary to have an top-level folder for a handful of messages in the worst of cases? I'd personally rather have these messages in my main conversation folder as to-do items, so I don't forget about them.
+* __Spam__
 
 I think the classic email folders can be simplified to this:
 * __Conversations__ combines the following views:
@@ -20,7 +21,7 @@ I think the classic email folders can be simplified to this:
 
 ## Conversation List
 
-Conversations are organized in 2 sections that are arranged vertically:
+Conversations are organized in 2 sections:
 * __Active Conversations__:
 	* New messages
 	* Drafts for new messages
@@ -28,8 +29,9 @@ Conversations are organized in 2 sections that are arranged vertically:
 * __History__:
 	* All other conversations (even if they only contain sent messages with no response)
 
-Notes:
-* Messages in the __Active__ category can be reordered by dragging, so it can be used as a to-do list. Thus, no priority system is required.
+* When one or more conversations from the list are selected, a set of actions (e.g. delete, mark as spam, move to History, etc.) is available from the panel on top of the Conversation list.
+* Selecting multiple conversations works just like on the desktop: Ctrl + Click individual conversations to add them to the selection or use Shift + Click for selecting all messages between two specific conversations. 
+* Messages in the __Active__ category can be reordered by dragging and dropping, so it can be used as a to-do list. Thus, no priority system is required.
 * When a message is opened it is not automatically marked as read. The user has to drag it into __History__ to remove it from the to-do list.
 * The person who wrote the most recent message in a thread is visually highlighted in the List.
 * Unread messages appear at the top ot the __Active__ column.
