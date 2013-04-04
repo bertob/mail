@@ -8,6 +8,7 @@ Problems in current implementations:
 * When emails are organized in conversations, the name __Inbox__ is not entirely correct, because this folder contains emails from other people as well as the user's replies to these emails.
 * Similarly, separating __Inbox__ and __Sent__ does not make a lot of sense because the inbox also contains messages from the user. At that point, wouldn't it be simpler to just have one folder with all these messages?
 * I never really understood what the __Drafts__ folder is for. Mine is almost always empty, except for the rare occasions when I start writing a message one day and finish it the next day. Is it really necessary to have an top-level folder for a handful of messages in the worst of cases? I'd personally rather have these messages in my main conversation folder as to-do items, so I don't forget about them.
+* __Starred__
 * __Spam__
 
 I think the classic email folders can be simplified to this:

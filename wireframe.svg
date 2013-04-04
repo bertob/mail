@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142137"
-     inkscape:cx="177.71011"
-     inkscape:cy="-633.24491"
+     inkscape:cx="234.27865"
+     inkscape:cy="413.27302"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -302,7 +302,7 @@
          sodipodi:role="line"
          id="tspan3135"
          x="-430.00006"
-         y="2782.3623">Label Nr. 1</tspan></text>
+         y="2782.3623">Folder 1</tspan></text>
     <rect
        style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect3137"
@@ -364,7 +364,7 @@
          y="2812.3623"
          x="-430.00006"
          id="tspan3155"
-         sodipodi:role="line">The Second Label</tspan></text>
+         sodipodi:role="line">The Second Folder</tspan></text>
     <rect
        style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect3157"
@@ -393,7 +393,7 @@
          y="2842.3623"
          x="-430.00006"
          id="tspan3165"
-         sodipodi:role="line">Another Label</tspan></text>
+         sodipodi:role="line">Another Folder</tspan></text>
     <rect
        style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect3167"
