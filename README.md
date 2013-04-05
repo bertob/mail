@@ -9,7 +9,7 @@ __Everything in this project is work in progress and subject to drastic change._
 
 Some of the basic ideas this project is based on:
 
-* Our inbox is already a to-do list. Might as well make it a good one.
+* The inbox is already a to-do list. Might as well make it a good one.
 * Folders are cool, but hard to manage. Let's make them smarter.
 * Drag and drop > buttons
 * Undo should be available for every user action.
@@ -34,7 +34,7 @@ I think the traditional email folders can be simplified to just these two:
 	* Drafts
 	* All messages
 * __Deleted__, which contains everything that would go into __Trash__, as well as __Spam__. New emails that have been flagged as spam appear on top, in a separate section similar to the "New" section in "Conversations". This makes it easy to restore emails that have been accidentally flagged as spam by the spam filter.
-* In addition, there are also custom folders, which can be set up by the user. These can also replace the __Starred__ category, because the user can just create a folder "Imporant" and use that instead of a dedicated, top level folder. That said, from I've gotten the impression there are not a lot of people who use the star feature anyway, so I don't consider it as high-priority.
+* In addition, there are also custom folders, which can be set up by the user. These can also replace the __Starred__ category, because the user can just create a folder "Imporant" and use that instead of a dedicated, top level folder. That said, I've gotten the impression that not a lot of people use the star feature anyway, so I don't consider it a high priority.
 
 ### Conversation List
 
