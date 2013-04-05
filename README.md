@@ -16,8 +16,8 @@ Some of the basic ideas this project is based on:
 ### Sidebar
 
 Problems in current implementations:
-* When emails are organized in conversations, the name __Inbox__ is not entirely correct, because this folder contains emails from other people as well as the user's replies to these emails.
-* Similarly, separating __Inbox__ and __Sent__ does not make a lot of sense because the inbox also contains messages from the user. At that point, wouldn't it be simpler to just have one folder with all these messages?
+* When emails are organized in conversations, the name __Inbox__ is not very descriptive, because this folder contains emails from other people as well as the user's replies to these emails.
+* To the same point, when some of the user's messages are already in the inbox, why not move the rest of them there to and have __one complete history__, instead of two partial ones? Why is there a need for a separate __Sent__ folder?
 * I never really understood what the __Drafts__ folder is for. Mine is almost always empty, except for the rare occasions when I start writing a message one day and finish it the next day. Is it really necessary to have an top-level folder that only ever contains a handful of messages, even in the worst of cases? I'd personally rather have these messages in my main conversation folder as to-do items. That has the added benefit that I don't forget about them as easily.
 * __Starred__
 * The __Spam__ folder is another example for something we rarely use, but that should always be quickly accessible in the few cases when something accidentally got flagged as spam and we need to restore it. But since spam email is essentially not counting as real, existing email, why can't it be in the same location as deleted email, since in a way, the effect of deleting and flagging as spam is essentially the same (move to separate folder, don't make it show up in search results etc.)
@@ -40,8 +40,7 @@ Conversations are organized in 2 sections:
 	* Drafts for new messages
 	* Conversations with open response drafts
 * __History__:
-	* All other conversations (even if they only contain sent messages with no response)
-
+* All other conversations (even if they only contain sent messages with no response)
 * When one or more conversations from the list are selected, a set of actions (e.g. delete, mark as spam, move to History, etc.) is available from the panel on top of the Conversation list.
 * Selecting multiple conversations works just like on the desktop: Ctrl + Click individual conversations to add them to the selection or use Shift + Click for selecting all messages between two specific conversations. 
 * Messages in the __Active__ category can be reordered by dragging and dropping, so it can be used as a to-do list. Thus, no priority system is required.
