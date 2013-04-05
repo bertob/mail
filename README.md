@@ -37,15 +37,16 @@ I think the classic email folders can be simplified to just these two:
 ### Conversation List
 
 Conversations are organized in 2 sections:
-* __Active Conversations__:
+__Active Conversations__:
 	* New messages
 	* Drafts for new messages
 	* Conversations with open response drafts
-* __History__:
+__History__:
 	* All other conversations (even if they only contain sent messages with no response)  
 
-* When one or more conversations from the list are selected, a set of actions (e.g. delete, mark as spam, move to History, etc.) is available from the panel on top of the Conversation list.
-* Selecting multiple conversations works just like on the desktop: Ctrl + Click individual conversations to add them to the selection or use Shift + Click for selecting all messages between two specific conversations. 
+* Selecting multiple conversations works just like on the desktop: Ctrl + Click individual conversations to add them to the selection or use Shift + Click for selecting all messages between two specific conversations.
+* Conversations can be moved from/to the Active and History sections, to folders or the trash via drag and drop.
+* When more than one conversation is selected, they all show up in the Conversation pane on the right, one above the other. The conversations can be reordered by the user, single messages in all conversations can be collapsed/uncollapsed.
 * Messages in the __Active__ category can be reordered by dragging and dropping, so it can be used as a to-do list. Thus, no priority system is required.
 * When a message is opened it is not automatically marked as read. The user has to drag it into __History__ to remove it from the to-do list.
 * The person who wrote the most recent message in a thread is visually highlighted in the List.
