@@ -1,7 +1,9 @@
 # Rethinking the email experience
 
 I want a better email interface. So I'm designing one.
-Everything in this project is work in progress and subject to drastic change.
+
+### Warning:
+__Everything in this project is work in progress and subject to drastic change.__
 
 ## Concepts
 
@@ -40,7 +42,8 @@ Conversations are organized in 2 sections:
 	* Drafts for new messages
 	* Conversations with open response drafts
 * __History__:
-* All other conversations (even if they only contain sent messages with no response)
+	* All other conversations (even if they only contain sent messages with no response)  
+
 * When one or more conversations from the list are selected, a set of actions (e.g. delete, mark as spam, move to History, etc.) is available from the panel on top of the Conversation list.
 * Selecting multiple conversations works just like on the desktop: Ctrl + Click individual conversations to add them to the selection or use Shift + Click for selecting all messages between two specific conversations. 
 * Messages in the __Active__ category can be reordered by dragging and dropping, so it can be used as a to-do list. Thus, no priority system is required.
