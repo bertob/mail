@@ -39,10 +39,12 @@ I think the traditional email folders can be simplified to just these two:
 ### Conversation List
 
 Conversations are organized in 2 sections:
+
 __Active Conversations__:
 * New/unread/to-do messages
 * Drafts for new messages
 * Conversations with open response drafts
+
 __History__:
 * All other conversations (even if they only contain sent messages with no response)
 
