@@ -6,7 +6,6 @@ I want a better email interface. So I'm designing one.
 __Everything in this project is work in progress and subject to drastic change.__
 
 ![UI wireframe](https://raw.github.com/bertob/mail/master/export/main_window.png)
-![UI mockup](https://raw.github.com/bertob/mail/master/mockup.svg)
 
 ## Concepts
 
@@ -22,6 +21,7 @@ Some of the basic ideas this project is based on:
 ### Sidebar
 
 Problems in current implementations:
+
 * When emails are organized in conversations, the name __Inbox__ is not very descriptive, because this folder contains emails from other people as well as the user's replies to these emails.
 * To the same point, when some of the user's messages are already in the inbox, why not move the rest of them there to and have __one complete history__, instead of two partial ones? Why is there a need for a separate __Sent__ folder?
 * I never really understood what the __Drafts__ folder is for. Mine is almost always empty, except for the rare occasions when I start writing a message one day and finish it the next day. Is it really necessary to have an top-level folder that only ever contains a handful of messages, even in the worst of cases? I'd personally rather have these messages in my main conversation folder as to-do items. That has the added benefit that I don't forget about them as easily.
@@ -31,12 +31,13 @@ Problems in current implementations:
 * __Folders__  and __Filters__ are cool, but underused by most people. That is mostly due to the fact that few people know about them and they are fairly complicated to set up and handle.
 
 I think the traditional email folders can be simplified to just these two:
+
 * __Conversations__, which combines the following:
 	* Inbox
 	* Sent
 	* Drafts
 	* All messages
-* __Deleted__, which contains everything that would go into __Trash__, as well as __Spam__. New emails that have been flagged as spam appear on top, in a separate section similar to the "New" section in "Conversations". This makes it easy to restore emails that have been accidentally flagged as spam by the spam filter.
+* __Deleted__, which contains everything that would go into __Trash__, as well as __Spam__. New emails that have been flagged as spam appear on top, in a separate section similar to the "Active" section in "Conversations". This makes it easy to restore emails that have been accidentally flagged as spam by the spam filter.
 * In addition, there are also custom folders, which can be set up by the user. These can also replace the __Starred__ category, because the user can just create a folder "Imporant" and use that instead of a dedicated, top level folder. That said, I've gotten the impression that not a lot of people use the star feature anyway, so I don't consider it a high priority.
 
 ### Conversation List
@@ -44,11 +45,13 @@ I think the traditional email folders can be simplified to just these two:
 Conversations are organized in 2 sections:
 
 __Active Conversations__:
+
 * New/unread/to-do messages
 * Drafts for new messages
 * Conversations with open response drafts
 
 __History__:
+
 * All other conversations (even if they only contain sent messages with no response)
 
 * Selecting multiple conversations works just like on the desktop: Ctrl + Click individual conversations to add them to the selection or use Shift + Click for selecting all messages between two specific conversations.
@@ -58,6 +61,14 @@ __History__:
 * When a message is opened it is not automatically marked as read. The user has to drag it into __History__ to remove it from the to-do list.
 * The person who wrote the most recent message in a thread is visually highlighted in the List.
 * Unread messages appear at the top ot the __Active__ column.
+
+Additionally, there is a __New Messgage__ area on top of everything else. It is used to start writing new messages, but this can be done in different ways:
+
+* Clicking the __Recipients__ label or any of the whitespace inside the area will open a compose dialog with the recipient field active
+* Clicking the __New Message__ (Subject) label will open a compose dialog with subject field active
+* Clicking the __Attachment icon__ will open a compose dialog AND directly the file chooser, to add an attachment to the message.
+* __Dragging and dropping files__ from the file manager on the area will open a compose dialog and directly attach these files to the message
+
 
 
 ### Single Conversation
@@ -71,10 +82,11 @@ __History__:
 * More detailed information is available from the "more" triangle menu next to the recipient's name
 * All actions on a single message are available via a top right menu on every message
 * In threads with many message, older messages in the thread are automatically collapsed and can be uncollapsed (like in Gmail)
+* Reply and Forward buttons are always visible, floating on top of the scrolling area with the messages in the bottom center of the pane
 
 ### Compose View
 
 * No formatting via UI. Formatting is possible via Markdown, but generally not recommended.
 * Attachments can be added by dragging and dropping files on the compose view.
-* After clicking the "Send" button, a little notification appears on top of the Conversation List that allows the user to undo the action for 5 seconds. After 5 seconds the message is sent.
+* After clicking the "Send" button, the __Undo__ button displays a label that allows the user to undo the action for 5 seconds, with a progress bar directly on the button. After 5 seconds the message is sent.
 
