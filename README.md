@@ -90,3 +90,11 @@ Additionally, there is a __New Messgage__ area on top of everything else. It is 
 * Attachments can be added by dragging and dropping files on the compose view.
 * After clicking the "Send" button, the __Undo__ button displays a label that allows the user to undo the action for 5 seconds, with a progress bar directly on the button. After 5 seconds the message is sent.
 
+### Settings
+
+The settings dialog is a single window with 4 sections:
+
+* __General__: general settings for the application, such as notifications, spell check and the language of the interface.
+* __Accounts__: Add, remove and manage email accounts
+* __Folders__: Add and remove folders, set up the rules by which conversations are automatically moved to them
+* __Filters__: More general filters, which allow for additional actions (not just auto-moving conversations to folders), such as delete, forward and auto-reply to messages.
