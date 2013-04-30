@@ -6,6 +6,7 @@ I want a better email interface. So I'm designing one.
 __Everything in this project is work in progress and subject to drastic change.__
 
 ![UI wireframe](https://raw.github.com/bertob/mail/master/export/main_window.png)
+![UI mockup](https://raw.github.com/bertob/mail/master/mockup.svg)
 
 ## Concepts
 
