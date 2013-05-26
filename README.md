@@ -3,9 +3,9 @@
 I want a better email interface. So I'm designing one.
 
 ### Warning:
-__Everything in this project is work in progress and subject to drastic change.__
+__Everything here is work in progress and subject to drastic change.__
 
-![UI wireframe](https://raw.github.com/bertob/mail/master/export/main_window.png)
+![UI wireframe](https://raw.github.com/bertob/mail/master/export/main_window_mockup.png)
 
 ## Concepts
 
