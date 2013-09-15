@@ -41,7 +41,7 @@ I think the traditional email folders can be simplified to just these two:
 ### Conversation List
 
 Problems in current implementations:
-* I feel like most email clients today either make items in the conversations column too big (eg. Sparrow, Geary), so that only 5 items or so fit on the screen at a time, or too small (eg. Thunderbird, Gmail and most other Webmail providers) so that they become hard to process visually. I don't have any research to back it up, but I think there is a sweet spot of 10-15 messages 
+* I feel like most email clients today either make items in the conversations column too big (eg. Sparrow, Geary), so that only 5 items or so fit on the screen at a time, or too small (eg. Thunderbird, Gmail and most other Webmail providers) so that they become hard to process visually.
 
 Conversations are organized in 2 sections:
 
