@@ -86,6 +86,9 @@ __History__:
 * Attachments can be added by dragging and dropping files on the compose view.
 * After clicking the "Send" button, the __Undo__ button displays a label that allows the user to undo the action for 5 seconds, with a progress bar directly on the button. After 5 seconds the message is sent.
 
+![Compose mockup](https://raw.github.com/bertob/mail/master/export/main_window_mockup_compose.png)
+
+
 ### Settings
 
 The settings dialog is a single window with 4 sections:
