@@ -13,7 +13,7 @@ Some of the basic ideas this project is based on:
 
 * The inbox is already a to-do list. Might as well make it a good one.
 * Folders are cool, but hard to manage. Let's make them smarter.
-* Drag and drop is better than buttons (When the action is moving something from one place to another, eg. deleting, )
+* Drag and drop is better than buttons (When the action is moving something from one place to another, eg. deleting, marking as read)
 
 ## UI elements
 
