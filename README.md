@@ -67,15 +67,6 @@ __History__:
 * The person who wrote the most recent message in a thread is visually highlighted in the List.
 * Unread messages appear at the top ot the __Active__ column.
 
-Additionally, there is a __New Messgage__ area on top of everything else. It is used to start writing new messages, but this can be done in different ways:
-
-* Clicking the __Recipients__ label or any of the whitespace inside the area will open a compose dialog with the recipient field active
-* Clicking the __New Message__ (Subject) label will open a compose dialog with subject field active
-* Clicking the __Attachment icon__ will open a compose dialog AND directly the file chooser, to add an attachment to the message.
-* __Dragging and dropping files__ from the file manager on the area will open a compose dialog and directly attach these files to the message
-
-
-
 ### Single Conversation
 
 * Behaves similarly to the Gmail web interface
