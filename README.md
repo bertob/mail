@@ -5,7 +5,7 @@ I want a better email interface. So I'm designing one.
 ### Warning:
 __Everything here is work in progress and subject to drastic change.__
 
-![UI mockup](https://raw.github.com/bertob/mail/master/export/main_window_mockup.png)
+![UI mockup](https://raw.github.com/bertob/mail/master/export/main_window_mockup_sidebar_collapsed.png)
 
 ## Concepts
 
