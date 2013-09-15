@@ -5,7 +5,7 @@ I want a better email interface. So I'm designing one.
 ### Warning:
 __Everything here is work in progress and subject to drastic change.__
 
-![UI wireframe](https://raw.github.com/bertob/mail/master/export/main_window_mockup.png)
+![UI mockup](https://raw.github.com/bertob/mail/master/export/main_window_mockup.png)
 
 ## Concepts
 
@@ -13,8 +13,7 @@ Some of the basic ideas this project is based on:
 
 * The inbox is already a to-do list. Might as well make it a good one.
 * Folders are cool, but hard to manage. Let's make them smarter.
-* Drag and drop > buttons
-* Undo should be available for every user action.
+* Drag and drop is better than buttons (When the action is moving something from one place to another, eg. deleting, )
 
 ## UI elements
 
@@ -27,7 +26,6 @@ Problems in current implementations:
 * I never really understood what the __Drafts__ folder is for. Mine is almost always empty, except for the rare occasions when I start writing a message one day and finish it the next day. Is it really necessary to have an top-level folder that only ever contains a handful of messages, even in the worst of cases? I'd personally rather have these messages in my main conversation folder as to-do items. That has the added benefit that I don't forget about them as easily.
 * I think that the main reason why there is a __Starred__ category in most email clients today is because the custom folder systems are implemented badly. If it was simple and easy to add an email to a custom group, why would anyone want to use a this limited way to organize emails with only 2 different states?
 * The __Spam__ folder is another example for something I rarely use, but that should still be quickly accessible (in case something automatically got flagged as spam and needs to be restored because it isn't spam). But since spam emails are not counting as real, existing emails, why can't they be in the same location as deleted email, since in a way, the effect of deleting and flagging as spam is essentially the same (move to separate folder, don't make it show up in search results etc.)
-* __Trash__
 * __Folders__  and __Filters__ are cool, but underused by most people. That is mostly due to the fact that few people know about them and they are fairly complicated to set up and handle.
 
 I think the traditional email folders can be simplified to just these two:
@@ -38,7 +36,7 @@ I think the traditional email folders can be simplified to just these two:
 	* Drafts
 	* All messages
 * __Deleted__, which contains everything that would go into __Trash__, as well as __Spam__. New emails that have been flagged as spam appear on top, in a separate section similar to the "Active" section in "Conversations". This makes it easy to restore emails that have been accidentally flagged as spam by the spam filter.
-* In addition, there are also custom folders, which can be set up by the user. These can also replace the __Starred__ category, because the user can just create a folder "Imporant" and use that instead of a dedicated, top level folder. That said, I've gotten the impression that not a lot of people use the star feature anyway, so I don't consider it a high priority.
+* In addition, there are also __custom folders__, which can be set up by the user. These can also replace the __Starred__ category, because the user can just create a folder "Imporant" and use that instead of a dedicated, top level folder. That said, I've gotten the impression that not a lot of people use the star feature anyway, so I don't consider it a high priority.
 
 ### Conversation List
 
